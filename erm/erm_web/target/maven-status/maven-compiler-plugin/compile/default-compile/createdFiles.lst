@@ -1,0 +1,5 @@
+com\scxh\ssm\controller\ProductController.class
+com\scxh\ssm\controller\UserController.class
+com\scxh\ssm\controller\OrdersController.class
+com\scxh\ssm\controller\PermissionController.class
+com\scxh\ssm\controller\RoleController.class

@@ -1,0 +1,10 @@
+com\scxh\ssm\service\impl\OrdersServiceImpl.class
+com\scxh\ssm\service\PermissionService.class
+com\scxh\ssm\service\impl\PermissionServiceImpl.class
+com\scxh\ssm\service\impl\UserServiceImpl.class
+com\scxh\ssm\service\impl\ProductServiceImpl.class
+com\scxh\ssm\service\OrdersService.class
+com\scxh\ssm\service\ProductService.class
+com\scxh\ssm\service\UserService.class
+com\scxh\ssm\service\impl\RoleServiceImpl.class
+com\scxh\ssm\service\RoleService.class

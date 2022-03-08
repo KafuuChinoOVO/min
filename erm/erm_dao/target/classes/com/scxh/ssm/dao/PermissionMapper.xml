@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.scxh.ssm.dao.PermissionMapper">
+
+
+
+    <select id="findAll" resultType="Permission">
+        SELECT * FROM permission
+    </select>
+
+    <select id="findById" resultType="Permission">
+        SELECT * FROM  permission WHERE id=#{id}
+    </select>
+
+    <insert id="save_add" parameterType="Permission">
+        INSERT INTO permission(permissionName,url,id) VALUES (#{permissionName},#{url},#{id});
+    </insert>
+
+    <delete id="deletePermissionId" parameterType="String">
+        DELETE FROM permission WHERE id =#{id}
+    </delete>
+</mapper>
